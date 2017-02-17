@@ -1,0 +1,27 @@
+.container {
+	height: 50rem;
+	width: 40%;
+	background-color: #c9c9c9;
+	opacity: .4;
+	border-radius: 1.5rem;
+	position: fixed;
+	top: 10rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+	.container {
+		width: 75%;
+	}
+}
+
+.form {
+	position: absolute;
+}
+
+.form-group.row {
+	
+}
