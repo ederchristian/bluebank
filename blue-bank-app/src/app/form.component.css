@@ -1,27 +1,51 @@
-.container {
-	height: 50rem;
+/* FORM */
+.form {
 	width: 40%;
-	background-color: #c9c9c9;
-	opacity: .4;
-	border-radius: 1.5rem;
 	position: fixed;
-	top: 10rem;
+	top: 20rem;
 	right: 0;
 	bottom: 0;
-	left: 0;
+	left: 14rem;
 	margin: 0 auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1000px) {
-	.container {
-		width: 75%;
+	.form {
+		width: 60%;
+		top: 12rem;
+		left: 0;
 	}
 }
 
-.form {
-	position: absolute;
+/* SVG */
+object {
+	height: 4rem;
 }
 
-.form-group.row {
-	
+/* INPUTS */
+input {
+	border: .2rem #fff solid;
+	border-radius: 1rem;
+	background: transparent;
+}
+
+input[type] {
+	color: #fff;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #1e3ca0;
+    box-shadow: .1rem 0 1rem #1e3ca0;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+    letter-spacing: .09rem;
+}
+
+:-moz-placeholder { /* Firefox */
+   color: #fff;
+   opacity: 1;
+   letter-spacing: .09rem;
 }
