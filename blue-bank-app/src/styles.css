@@ -10,7 +10,12 @@ body {
 	font-weight: 400;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	color: #555;
-	background-image: url("./assets/images/background-blue-bank.jpg");
+	background: 
+    linear-gradient(
+      rgba(30, 60, 160, .1), 
+      rgba(30, 60, 160, .4)
+    ),
+    url(./assets/images/background-blue-bank.jpg);
 	background-size: cover;
 	height: 100vh;
 }
