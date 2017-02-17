@@ -33,4 +33,6 @@ lib-cov
 coverage
 
 # nyc test coverage
-.nyc_output
+.nyc_output.DS_Store
+.gitignore\n
+.DS_Store
