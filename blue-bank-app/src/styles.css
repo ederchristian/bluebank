@@ -12,4 +12,11 @@ body {
 	color: #555;
 	background-image: url("./assets/images/background-blue-bank.jpg");
 	background-size: cover;
+	height: 100vh;
+}
+
+@media screen and (min-width: 320px) {
+	body {
+		background-position: center center;
+	}
 }
