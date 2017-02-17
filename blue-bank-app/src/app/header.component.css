@@ -1,0 +1,10 @@
+.container {
+	width: 100%;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 4rem;
+	text-align: center;
+	color: #2345aa;
+}
