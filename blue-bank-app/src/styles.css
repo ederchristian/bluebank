@@ -12,7 +12,7 @@ body {
 	color: #555;
 	background: 
     linear-gradient(
-      rgba(30, 60, 160, .4), 
+      rgba(30, 60, 160, .5), 
       rgba(30, 60, 160, .4)
     ),
     url(./assets/images/background-blue-bank.jpg);
