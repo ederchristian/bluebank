@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header.component';
 import { FormComponent } from './form.component';
+import { FooterComponent } from './footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FormComponent
+    FormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { FormComponent } from './form.component';
   bootstrap: [
     AppComponent,
     HeaderComponent,
-    FormComponent
+    FormComponent,
+    FooterComponent
   ]
 })
 export class AppModule { }
