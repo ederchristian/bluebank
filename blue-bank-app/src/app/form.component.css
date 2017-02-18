@@ -33,6 +33,13 @@
 	}
 }
 
+@media screen and (min-width: 1500px) and (max-width: 1950px) {
+	.form {
+		width: 40%;
+		margin-left: 52rem;
+	}
+}
+
 /* SVG */
 object {
 	height: 4rem;
@@ -155,5 +162,11 @@ a {
 
 	#button-login {
 		background-color: #1e3ca0;
+	}
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1950px) {
+	a {
+		margin-left: 18rem;
 	}
 }
