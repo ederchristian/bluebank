@@ -1,0 +1,38 @@
+/* ------- HEADER ------- */
+.container {
+	width: 100%;
+	background-color: #999;
+	position: fixed;
+	display: flex;
+	height: 7rem;
+}
+
+.logo {
+	position: relative;
+	margin: .5rem 0;
+}
+
+object {
+	height: 6rem;
+}
+
+.welcome-message,
+.exit-link {
+	margin: 2rem 2rem;
+	color: #fff;
+}
+
+.welcome-message p {
+	font-size: 1.4rem;
+}
+
+.exit-link a {
+	font-size: 1.4rem;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.exit-link a:hover {
+	color: #1e3ca0;
+	text-decoration: underline;
+}
