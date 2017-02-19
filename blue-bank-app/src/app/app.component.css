@@ -137,7 +137,7 @@ button {
 	width: 30%;
 }
 
-a {
+.link a {
 	color: #fff;
 	text-decoration: underline;
 	font-weight: 300;
@@ -145,7 +145,7 @@ a {
 }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
-	a {
+	.link a {
 		margin-left: 1rem;
 	}
 
@@ -166,13 +166,13 @@ a {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
-	a {
+	.link a {
 		margin-left: 10rem;
 	}
 }
 
 @media screen and (min-width: 400px) and (max-width: 1000px) {
-	a {
+	.link a {
 		margin-left: 3rem;
 	}
 
@@ -186,7 +186,7 @@ a {
 }
 
 @media screen and (min-width: 1500px) and (max-width: 1950px) {
-	a {
+	.link a {
 		margin-left: 18rem;
 	}
 }
@@ -203,7 +203,7 @@ p {
 }
 
 /* LINK */
-a {
+.footer a {
 	text-decoration: none;
 	color: #fff;
 }
