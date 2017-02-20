@@ -1,11 +1,18 @@
 /* ------- HEADER ------- */
 .container {
 	width: 100%;
-	background-color: #999;
+	background-color: #f5f5f5;
 	position: fixed;
 	display: flex;
 	height: 7rem;
 }
+
+@media screen (min-width: 320px) {
+	.container {
+		margin: 0;
+	}
+}
+
 
 .logo {
 	position: relative;
@@ -19,7 +26,7 @@ object {
 .welcome-message,
 .exit-link {
 	margin: 2rem 2rem;
-	color: #fff;
+	color: #1e3ca0;
 }
 
 .welcome-message p {
@@ -28,11 +35,84 @@ object {
 
 .exit-link a {
 	font-size: 1.4rem;
-	color: #fff;
+	color: #1e3ca0;
 	text-decoration: underline;
 }
 
 .exit-link a:hover {
 	color: #1e3ca0;
 	text-decoration: underline;
+}
+
+/* CONTROL PANEL */
+.panel-group {
+  	display: column;
+  	align-items: center;
+  	justify-content: center;
+  	margin-top: 9rem;
+  	font-size: 1.4rem;
+}
+
+.panel.panel-default {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.panel-heading {
+	font-weight: 700;
+	color: #1e3ca0;
+	font-size: 1.4rem;
+}
+
+.green-value {
+	color: green;
+}
+
+.input-group {
+	margin: 1rem 16rem;
+	position: relative;
+	width: 50%;
+	font-size: 1.4rem;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #1e3ca0;
+    box-shadow: .1rem 0 1rem #1e3ca0;
+    font-size: 1.4rem;
+}
+
+label {
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-top: .8rem;
+}
+
+span {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+button {
+	margin: 1rem 1rem;
+	height: 3.5rem;
+	padding: 0 2rem;
+	color: #1e3ca0;
+	cursor: pointer;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 3.8rem;
+	text-decoration: none;
+	background-color: transparent;
+	border-radius: 1rem;
+	border: .1rem solid #1e3ca0;
+	box-sizing: border-box;
+}
+
+button:hover {
+	color: #fff;
+	background-color: #1e3ca0;
 }
