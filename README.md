@@ -7,41 +7,41 @@ Foram desenvolvidas as telas para a aplicação que tem o objetivo de transferir
 
 ## Instalação
 
-1. Instalar npm:
+* Instalar npm:
 ```
 $ [sudo] npm install
 ```
-2. Instalar última versão do Angular 2:
+* Instalar última versão do Angular 2:
 ```
 $ [sudo] npm install -g angular-cli@latest
 ```
 
 ## Acessar tela principal
 
-1. Abrir pasta:
+* Abrir pasta:
 ```
 $ cd bluebank
 $ cd blue-bank-app
 ```
-2. Iniciar servidor:
+* Iniciar servidor:
 ```
 $ ng serve
 ```
-3. Abrir navegador:
+* Abrir navegador:
 <http://localhost:4200>
 
 ## Acessar tela de transferência de fundos
 
-1. Abrir pasta:
+* Abrir pasta:
 ```
 $ cd bluebank
 $ cd blue-bank-welcome
 ```
-2. Iniciar servidor:
+* Iniciar servidor:
 ```
 $ ng serve
 ```
-3. Abrir navegador:
+* Abrir navegador:
 <http://localhost:4200>
 
 ## Visualizar screenshots das telas
