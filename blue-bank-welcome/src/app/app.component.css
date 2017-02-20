@@ -182,3 +182,14 @@ button:hover {
 		background-color: #1e3ca0;
 	}
 }
+
+/* ------- FOOTER ------- */
+.footer {
+	color: #1e3ca0;
+	text-align: center;
+}
+
+.footer a {
+	color: #1e3ca0;
+	text-decoration: none;
+}
