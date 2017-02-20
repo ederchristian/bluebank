@@ -5,26 +5,44 @@
 	position: fixed;
 	display: flex;
 	height: 7rem;
+	top: 0;
 }
 
-@media screen (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 1000px) {
 	.container {
-		margin: 0;
+		top: 0;
 	}
 }
-
 
 .logo {
 	position: relative;
 	margin: .5rem 0;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+	.logo {
+	position: relative;
+	margin-top: .5rem;
+	margin-left: -2rem;
+	}
+}
+
 object {
 	height: 6rem;
 }
 
-.welcome-message,
+.welcome-message {
+	position:absolute;
+   	top: -1rem;
+   	right:0;
+	margin: 2rem 2rem;
+	color: #1e3ca0;
+}
+
 .exit-link {
+	position:absolute;
+   	top: 1.5rem;
+   	right:0;
 	margin: 2rem 2rem;
 	color: #1e3ca0;
 }
@@ -53,10 +71,44 @@ object {
   	font-size: 1.4rem;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+	.panel.panel-default  {
+		width: 60rem;
+	}
+}
+
 .panel.panel-default {
 	text-align: center;
 	width: 50%;
 	margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 350px) {
+	.panel-group {
+		width: 60rem;
+		margin-left: -14rem;
+	}
+}
+
+@media screen and (min-width: 370px) and (max-width: 400px) {
+	.panel-group {
+		width: 65.5rem;
+		margin-left: -14rem;
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 500px) {
+	.panel-group {
+		width: 70rem;
+		margin-left: -14rem;
+	}
+}
+
+@media screen and (min-width: 660px) and (max-width: 1000px) {
+	.panel-group {
+		width: 70rem;
+		margin-left: 0;
+	}
 }
 
 .panel-heading {
@@ -74,6 +126,13 @@ object {
 	position: relative;
 	width: 50%;
 	font-size: 1.4rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+	.input-group {
+		width: 90%;
+		margin-left: 1.5rem;
+	}
 }
 
 input:focus { 
@@ -115,4 +174,11 @@ button {
 button:hover {
 	color: #fff;
 	background-color: #1e3ca0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+	button {
+		color: #fff;
+		background-color: #1e3ca0;
+	}
 }
